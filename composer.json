@@ -1,0 +1,34 @@
+{
+  "name": "galangaidilakbar/numeric-mask",
+  "description": "A Laravel Nova field that automatically adds thousand separator dots while typing (e.g., 1000 becomes 1.000)",
+  "keywords": [
+    "laravel",
+    "nova",
+    "field",
+    "numeric",
+    "mask",
+    "thousand separator",
+    "number format"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^7.3|^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Galangaidilakbar\\NumericMask\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Galangaidilakbar\\NumericMask\\FieldServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
